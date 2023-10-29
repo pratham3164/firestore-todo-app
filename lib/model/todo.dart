@@ -1,10 +1,13 @@
 import 'package:todo/entites/todo_entity.dart';
 
 class Todo {
+
+
   final String id;
   final String task;
   final String note;
   final bool completed;
+  final String message;
 
   Todo({this.id, this.task, this.note, this.completed});
 
